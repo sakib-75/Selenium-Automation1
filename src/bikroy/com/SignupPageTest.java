@@ -52,10 +52,10 @@ public class SignupPageTest {
 		
 		Thread.sleep(2000);
 		WebElement cpassword_input = driver.findElement(By.id("input_password-confirm"));
-		cpassword_input.sendKeys("123abc");
+		cpassword_input.sendKeys("123abc#$");
 		
-		Thread.sleep(2000);
-		driver.findElement(By.xpath("//button[text()='Sign up']")).click();
+		//Thread.sleep(2000);
+		//driver.findElement(By.xpath("//button[text()='Sign up']")).click();
 		
 		
 		Thread.sleep(2000);
