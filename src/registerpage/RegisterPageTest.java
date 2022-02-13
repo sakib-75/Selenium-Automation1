@@ -44,10 +44,6 @@ public class RegisterPageTest {
 		Select language = new Select(driver.findElement(By.xpath("//select[@id='language']")));
 		language.selectByVisibleText("Bengali");
 		
-		//Thread.sleep(2000);
-		//Fill date as dd/mm/yyyy as 05/01/2022
-		//WebElement dateBox = driver.findElement(By.xpath("//input[@id='birth-date']"));
-		//dateBox.sendKeys("05012022");
 
 		Thread.sleep(2000);
 		WebElement uploadElement = driver.findElement(By.xpath("//input[@id='image']"));
